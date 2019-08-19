@@ -1,0 +1,34 @@
+<head>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+  <script src="https://dagrejs.github.io/project/graphlib-dot/v0.6.3/graphlib-dot.js"></script>
+  <script src="https://raw.githubusercontent.com/cjrd/directed-graph-creator/master/graph-creator.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/cjrd/directed-graph-creator/master/graph-creator.css">
+  <style>
+      /* This sets the color for "TK" nodes to a light blue green. */
+      g.type-TK > rect {
+        fill: #ff0000;
+      }
+
+      text {
+        font-weight: 300;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+      }
+
+      .node rect {
+        stroke: #999;
+        fill: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .edgePath path {
+        stroke: #333;
+        stroke-width: 1.5px;
+      }
+  </style>
+</head>
+<body>
+  <svg></svg>
+</body>
